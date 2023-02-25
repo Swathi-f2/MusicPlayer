@@ -4,7 +4,7 @@ from pygame import mixer
 
 class MusicPlayer:
     def __init__(self, window ):
-        window.geometry('400x350'); window.title('Purush Music Player'); window.resizable(0,0)
+        window.geometry('400x350'); window.title('Swathi Music Player'); window.resizable(0,0)
         load_button = Button(window, text = 'Load song ',  width = 15, font = ('Times', 15), command = self.load)
         start_button = Button(window, text = 'start song ',  width = 15,font = ('Times', 15), command = self.play)
         pause_button = Button(window,text = 'Pause song',  width = 15, font = ('Times', 15), command = self.pause)
